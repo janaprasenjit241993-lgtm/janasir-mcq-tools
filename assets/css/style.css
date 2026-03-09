@@ -1,0 +1,13 @@
+.jmt-app { max-width: 960px; margin: 1rem auto; padding: 1rem; border: 1px solid #e5e7eb; border-radius: 10px; background: #fff; }
+.jmt-filter-grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); margin-bottom: 1rem; }
+.jmt-filter-grid label { display: flex; flex-direction: column; gap: .35rem; font-weight: 600; }
+.jmt-filter-grid select { padding: .45rem; }
+.jmt-status { margin: .8rem 0; color: #374151; }
+.jmt-question-card { margin-top: 1rem; border: 1px solid #d1d5db; border-radius: 8px; padding: 1rem; }
+.jmt-question-text { margin-bottom: 1rem; font-size: 1.02rem; }
+.jmt-options { display: grid; gap: .7rem; }
+.jmt-option { text-align: left; padding: .65rem .8rem; border-radius: 6px; border: 1px solid #d1d5db; background: #f9fafb; cursor: pointer; }
+.jmt-option.is-correct { background: #16a34a; color: #fff; border-color: #15803d; }
+.jmt-option.is-wrong { background: #dc2626; color: #fff; border-color: #b91c1c; }
+.jmt-explanation { margin-top: 1rem; padding: .8rem; background: #eff6ff; border-left: 4px solid #2563eb; }
+.jmt-performance { margin-top: 1rem; border: 1px solid #bfdbfe; background: #f0f9ff; padding: 1rem; border-radius: 8px; }
